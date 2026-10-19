@@ -46,7 +46,6 @@ All visible text lives in `assets/js/i18n.js` (one entry per language).
 
 ## To do
 
-- [ ] Higher-resolution profile photo (min. 480×480 px)
 - [ ] Project screenshots
 - [ ] Final URL in the Open Graph meta tags
 

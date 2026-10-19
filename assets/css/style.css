@@ -295,6 +295,7 @@ h3 { font-size: 19px; font-weight: 700; }
 .contact-inner > div { flex: 999 1 420px; min-width: 0; }
 .contact h2 { font-size: clamp(32px, 4vw, 42px); margin-bottom: 12px; }
 .contact p { font-size: 18px; color: var(--contact-muted); }
+.contact-lead { white-space: pre-line; }
 .contact-links { flex: 0 1 auto; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; }
 .social-links { display: flex; gap: 12px; }
 .social-btn {

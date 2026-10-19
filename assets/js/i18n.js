@@ -84,7 +84,7 @@ window.I18N = {
     'proj.p3.text': 'Report programok Open SQL lekérdezésekkel, kapcsolódó táblák összekapcsolásával és belső táblákkal.',
 
     'contact.title': 'Beszéljünk!',
-    'contact.text': 'Kérdés, közös projekt vagy egy jó szakmai beszélgetés? Írj nyugodtan, szívesen válaszolok.',
+    'contact.text': 'Kérdés, közös projekt vagy egy jó szakmai beszélgetés?\nÍrj nyugodtan, szívesen válaszolok.',
     'copy.label': 'E-mail-cím másolása',
     'copy.done': 'Másolva!',
     'copy.fail': 'Nem sikerült másolni',
@@ -172,7 +172,7 @@ window.I18N = {
     'proj.p3.text': 'Report programs using Open SQL queries, joins across related tables and internal tables.',
 
     'contact.title': 'Let\'s talk.',
-    'contact.text': 'A question, a project idea or just a good chat about tech? Feel free to reach out — I\'m happy to reply.',
+    'contact.text': 'A question, a project idea or just a good chat about tech?\nFeel free to reach out — I\'m happy to reply.',
     'copy.label': 'Copy email address',
     'copy.done': 'Copied!',
     'copy.fail': 'Could not copy',

@@ -6,7 +6,7 @@
 window.I18N = {
   hu: {
     'meta.title': 'Abari Gergő – Junior Java backend és SAP ABAP fejlesztő',
-    'meta.description': 'Abari Gergő portfóliója – junior szoftverfejlesztő: Java / Spring Boot backend és SAP ABAP. Debrecen · Budapest · remote.',
+    'meta.description': 'Abari Gergő bemutatkozó oldala – junior szoftverfejlesztő, Java / Spring Boot backend és SAP ABAP. Debrecen · Budapest · remote.',
 
     skip: 'Ugrás a tartalomhoz',
     menu: 'Menü megnyitása',
@@ -19,10 +19,10 @@ window.I18N = {
     'nav.projects': 'Projektek',
     'nav.contact': 'Kapcsolat',
 
-    'hero.status': 'Munkát keresek – Budapest · Debrecen · Remote',
+    'hero.status': 'Debrecen · Budapest · Remote',
     'hero.name': 'Abari Gergő',
     'hero.role': 'Junior Java backend és SAP ABAP fejlesztő',
-    'hero.lead': 'Frissen végzett programtervező informatikus a Debreceni Egyetemről. Szakmai gyakorlatomon Spring Boot és Angular alapú alkalmazást fejlesztettem, az egyetemen ABAP-ot is tanultam – Java backend vagy SAP ABAP fejlesztőként keresem az első munkahelyemet.',
+    'hero.lead': 'Gergő vagyok, frissen végzett programtervező informatikus a Debreceni Egyetemről. Java és Spring Boot alapú backend-fejlesztéssel foglalkozom, és azt szeretem, amikor egy rendszer mögötti logika tiszta és megbízható.',
     'hero.cv': 'Önéletrajz letöltése (EN)',
     'hero.contact': 'Kapcsolat',
     'hero.photoAlt': 'Abari Gergő portréja',
@@ -30,8 +30,8 @@ window.I18N = {
 
     'about.eyebrow': '01 — Rólam',
     'about.title': 'Backend logika – Javában és ABAP-ban.',
-    'about.p1': 'Java és Spring Boot alapú, backend-központú alkalmazásokat fejlesztek: REST API-k, adatfeldolgozás, adatbázisok. Szakmai gyakorlatomon egy valódi könyvtári feladatra készítettem Spring Boot + Angular alkalmazást. Azt a részt szeretem leginkább, amikor az adatokat pontosan kell lekérdezni, leképezni és átalakítani.',
-    'about.p2': 'Az egyetemen ABAP-kurzust is végeztem (report programozás, Open SQL, táblakapcsolatok, belső táblák), így a vállalati SAP-fejlesztés is érdekel. Junior Java backend vagy SAP ABAP pozíciót keresek Budapesten, Debrecenben vagy remote.',
+    'about.p1': 'A backend-fejlesztésen belül az adatokkal foglalkozó rész áll hozzám a legközelebb: REST API-k, adatfeldolgozás, adatbázisok – amikor az információt pontosan kell lekérdezni, leképezni és átalakítani. Szakmai gyakorlatomon ezt egy valódi könyvtári feladaton próbálhattam ki, egy Spring Boot + Angular alkalmazással.',
+    'about.p2': 'Az egyetemen az ABAP-pal is megismerkedtem (report programozás, Open SQL, táblakapcsolatok, belső táblák), így a vállalati SAP-fejlesztés világa sem idegen számomra.',
     'about.p3': 'A kódon kívül a labdarúgás a szenvedélyem. A fejlesztésben az motivál a leginkább, amikor egy nehéz problémát sikerül megoldanom, és látom, hogy amit építettem, valódi értéket teremt.',
     'about.f1k': 'Végzettség',
     'about.f1v': 'BSc programtervező informatikus',
@@ -84,14 +84,14 @@ window.I18N = {
     'proj.p3.text': 'Report programok Open SQL lekérdezésekkel, kapcsolódó táblák összekapcsolásával és belső táblákkal.',
 
     'contact.title': 'Beszéljünk!',
-    'contact.text': 'Junior Java backend vagy SAP ABAP fejlesztőt keres, aki gyorsan tanul? Szívesen beszélgetek.',
+    'contact.text': 'Kérdés, közös projekt vagy egy jó szakmai beszélgetés? Írj nyugodtan, szívesen válaszolok.',
 
     'footer.top': 'Vissza az elejére ↑'
   },
 
   en: {
     'meta.title': 'Gergő Abari – Junior Java Backend & SAP ABAP Developer',
-    'meta.description': 'Portfolio of Gergő Abari – junior software developer: Java / Spring Boot backend and SAP ABAP. Debrecen · Budapest · remote.',
+    'meta.description': 'Personal website of Gergő Abari – junior software developer, Java / Spring Boot backend and SAP ABAP. Debrecen · Budapest · remote.',
 
     skip: 'Skip to content',
     menu: 'Open menu',
@@ -104,10 +104,10 @@ window.I18N = {
     'nav.projects': 'Projects',
     'nav.contact': 'Contact',
 
-    'hero.status': 'Open to work – Budapest · Debrecen · Remote',
+    'hero.status': 'Debrecen · Budapest · Remote',
     'hero.name': 'Gergő Abari',
     'hero.role': 'Junior Java Backend & SAP ABAP Developer',
-    'hero.lead': 'Computer Science graduate from the University of Debrecen. During my internship I built a Spring Boot and Angular application, and at university I also learned ABAP — I\'m looking for my first role as a Java backend or SAP ABAP developer.',
+    'hero.lead': 'I\'m Gergő, a Computer Science graduate from the University of Debrecen. I work on backend development with Java and Spring Boot, and I like it when the logic behind a system is clean and reliable.',
     'hero.cv': 'Download CV',
     'hero.contact': 'Get in touch',
     'hero.photoAlt': 'Portrait of Gergő Abari',
@@ -115,8 +115,8 @@ window.I18N = {
 
     'about.eyebrow': '01 — About',
     'about.title': 'Backend logic — in Java and ABAP.',
-    'about.p1': 'I build backend-focused applications with Java and Spring Boot: REST APIs, data processing, databases. During my internship I built a Spring Boot + Angular application for a real library workflow. The part I enjoy most is getting data queried, mapped and transformed exactly right.',
-    'about.p2': 'At university I also took ABAP coursework (report programming, Open SQL, table joins, internal tables), so enterprise SAP development interests me too. I\'m looking for a junior Java backend or SAP ABAP role in Budapest, Debrecen or remote.',
+    'about.p1': 'Within backend development, the data side suits me best: REST APIs, data processing, databases — getting information queried, mapped and transformed exactly right. During my internship I got to apply this to a real library workflow with a Spring Boot + Angular application.',
+    'about.p2': 'At university I also learned ABAP (report programming, Open SQL, table joins, internal tables), so the world of enterprise SAP development isn\'t new to me either.',
     'about.p3': 'Outside of code, football is my passion. What motivates me most in development is the satisfaction of cracking a hard problem — and seeing that what I built creates real value.',
     'about.f1k': 'Degree',
     'about.f1v': 'BSc Computer Science',
@@ -169,7 +169,7 @@ window.I18N = {
     'proj.p3.text': 'Report programs using Open SQL queries, joins across related tables and internal tables.',
 
     'contact.title': 'Let\'s talk.',
-    'contact.text': 'Looking for a junior Java backend or SAP ABAP developer who learns fast? I\'d be glad to talk.',
+    'contact.text': 'A question, a project idea or just a good chat about tech? Feel free to reach out — I\'m happy to reply.',
 
     'footer.top': 'Back to top ↑'
   }

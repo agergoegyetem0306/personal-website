@@ -163,7 +163,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .badge {
   align-self: flex-start; display: inline-flex; align-items: center; gap: 8px;
   padding: 6px 12px; border-radius: 999px;
-  background: var(--ok-bg); color: var(--ok-text); font-size: 14px; font-weight: 600;
+  background: var(--chip-bg); color: var(--chip-text); font-size: 14px; font-weight: 600;
 }
 .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok-dot); }
 .hero h1 { font-size: clamp(40px, 6.5vw, 66px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.05; }

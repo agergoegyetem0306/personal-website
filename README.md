@@ -1,6 +1,6 @@
 # Gergő Abari – Personal Website
 
-Personal portfolio of **Gergő Abari**, Junior SAP ABAP Developer (BSc Computer Science, University of Debrecen).
+Personal portfolio of **Gergő Abari**, junior software developer — Java / Spring Boot backend and SAP ABAP (BSc Computer Science, University of Debrecen).
 
 A static, dependency-free website built with plain HTML, CSS and JavaScript.
 
@@ -46,10 +46,8 @@ All visible text lives in `assets/js/i18n.js` (one entry per language).
 
 ## To do
 
-- [ ] Replace placeholders (marked with a dashed yellow box)
-- [ ] Add CV PDFs to `assets/cv/` (`Abari_Gergo_CV.pdf`, `Gergo_Abari_CV.pdf`)
 - [ ] Higher-resolution profile photo (min. 480×480 px)
-- [ ] Project screenshots, source and demo links
+- [ ] Project screenshots
 - [ ] Final URL in the Open Graph meta tags
 
 ## License

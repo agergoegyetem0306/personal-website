@@ -225,7 +225,7 @@ h3 { font-size: 19px; font-weight: 700; }
 
 /* ---------- Tudás ---------- */
 .card-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px; margin-bottom: 20px;
 }
 .card {
@@ -256,6 +256,9 @@ h3 { font-size: 19px; font-weight: 700; }
 .tl-org { font-weight: 600; color: var(--text-2); }
 .tl-list { padding-left: 20px; margin-top: 8px; color: var(--text-2); display: flex; flex-direction: column; gap: 6px; }
 .tl-item .ph { margin-top: 10px; }
+.tl-lead { margin-top: 10px; color: var(--text-2); }
+.tl-note { margin-top: 10px; color: var(--text-2); }
+
 
 /* ---------- Projektek ---------- */
 .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 20px; }

@@ -295,7 +295,7 @@ h3 { font-size: 19px; font-weight: 700; }
 .contact-inner > div { flex: 999 1 420px; min-width: 0; }
 .contact h2 { font-size: clamp(32px, 4vw, 42px); margin-bottom: 12px; }
 .contact p { font-size: 18px; color: var(--contact-muted); }
-.contact-links { flex: 1 1 280px; display: flex; flex-direction: column; gap: 18px; }
+.contact-links { flex: 0 1 auto; display: flex; flex-direction: column; align-items: flex-end; gap: 18px; }
 .social-links { display: flex; gap: 12px; }
 .social-btn {
   display: inline-flex; align-items: center; justify-content: center;
@@ -304,7 +304,7 @@ h3 { font-size: 19px; font-weight: 700; }
   transition: color .15s ease, border-color .15s ease, transform .15s ease;
 }
 .social-btn:hover { color: var(--contact-text); border-color: var(--contact-link); transform: translateY(-2px); }
-.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.email-row { position: relative; display: flex; align-items: center; gap: 8px; }
 .email-link { color: var(--contact-link); font-size: 18px; font-weight: 600; overflow-wrap: anywhere; }
 .email-link:hover { color: var(--contact-text); }
 .copy-btn {
@@ -316,7 +316,11 @@ h3 { font-size: 19px; font-weight: 700; }
 .copy-btn .i-check { display: none; }
 .copy-btn.copied .i-copy { display: none; }
 .copy-btn.copied .i-check { display: block; }
-.copy-status { font-size: 14px; color: var(--contact-muted); }
+.copy-status { position: absolute; right: 0; top: calc(100% + 6px); font-size: 14px; color: var(--contact-muted); white-space: nowrap; }
+@media (max-width: 760px) {
+  .contact-links { align-items: flex-start; }
+  .copy-status { right: auto; left: 0; }
+}
 
 /* ---------- Lábléc ---------- */
 .site-footer { background: var(--contact-bg); color: var(--contact-muted); border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; }

@@ -41,10 +41,7 @@ window.I18N = {
 
     'skills.eyebrow': '02 — Tudás',
     'skills.title': 'Amivel dolgozom',
-    'skills.sap1': 'ABAP report programozás',
     'skills.sap2': 'Belső táblák',
-    'skills.sap3': 'Data Dictionary alapok',
-    'skills.sap4': 'SAP GUI navigáció',
     'skills.prog': 'Programozás',
     'skills.rest': 'REST API-k',
     'skills.frontend': 'Frontend',
@@ -129,10 +126,7 @@ window.I18N = {
 
     'skills.eyebrow': '02 — Skills',
     'skills.title': 'What I work with',
-    'skills.sap1': 'ABAP report programming',
     'skills.sap2': 'Internal tables',
-    'skills.sap3': 'Data Dictionary basics',
-    'skills.sap4': 'SAP GUI navigation',
     'skills.prog': 'Programming',
     'skills.rest': 'REST APIs',
     'skills.frontend': 'Frontend',

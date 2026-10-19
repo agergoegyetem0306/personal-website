@@ -85,6 +85,9 @@ window.I18N = {
 
     'contact.title': 'Beszéljünk!',
     'contact.text': 'Kérdés, közös projekt vagy egy jó szakmai beszélgetés? Írj nyugodtan, szívesen válaszolok.',
+    'copy.label': 'E-mail-cím másolása',
+    'copy.done': 'Másolva!',
+    'copy.fail': 'Nem sikerült másolni',
 
     'footer.top': 'Vissza az elejére ↑'
   },
@@ -170,6 +173,9 @@ window.I18N = {
 
     'contact.title': 'Let\'s talk.',
     'contact.text': 'A question, a project idea or just a good chat about tech? Feel free to reach out — I\'m happy to reply.',
+    'copy.label': 'Copy email address',
+    'copy.done': 'Copied!',
+    'copy.fail': 'Could not copy',
 
     'footer.top': 'Back to top ↑'
   }

@@ -96,6 +96,39 @@
     });
   }
 
+  /* ---------- E-mail másolása ---------- */
+  function t(key) {
+    var lang = root.lang in dict ? root.lang : 'hu';
+    return (dict[lang] && dict[lang][key]) || '';
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'absolute'; ta.style.left = '-9999px';
+    document.body.appendChild(ta); ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    return ok;
+  }
+  document.querySelectorAll('.copy-btn').forEach(function (btn) {
+    var status = btn.parentNode.querySelector('.copy-status');
+    var timer;
+    function done(ok) {
+      btn.classList.toggle('copied', ok);
+      if (status) status.textContent = t(ok ? 'copy.done' : 'copy.fail');
+      clearTimeout(timer);
+      timer = setTimeout(function () { btn.classList.remove('copied'); if (status) status.textContent = ''; }, 2000);
+    }
+    btn.addEventListener('click', function () {
+      var text = btn.getAttribute('data-copy');
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(fallbackCopy(text)); });
+      } else {
+        done(fallbackCopy(text));
+      }
+    });
+  });
+
   /* ---------- Évszám a láblécben ---------- */
   var year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());

@@ -295,10 +295,28 @@ h3 { font-size: 19px; font-weight: 700; }
 .contact-inner > div { flex: 999 1 420px; min-width: 0; }
 .contact h2 { font-size: clamp(32px, 4vw, 42px); margin-bottom: 12px; }
 .contact p { font-size: 18px; color: var(--contact-muted); }
-.contact-links { flex: 1 1 280px; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 17px; font-weight: 600; }
-.contact-links a { color: var(--contact-link); overflow-wrap: anywhere; }
-.contact-links li:first-child a { color: var(--contact-text); }
-.contact-links a:hover { color: var(--contact-text); }
+.contact-links { flex: 1 1 280px; display: flex; flex-direction: column; gap: 18px; }
+.social-links { display: flex; gap: 12px; }
+.social-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 52px; height: 52px; border-radius: 12px;
+  color: var(--contact-link); border: 1px solid rgba(255,255,255,0.18);
+  transition: color .15s ease, border-color .15s ease, transform .15s ease;
+}
+.social-btn:hover { color: var(--contact-text); border-color: var(--contact-link); transform: translateY(-2px); }
+.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.email-link { color: var(--contact-link); font-size: 18px; font-weight: 600; overflow-wrap: anywhere; }
+.email-link:hover { color: var(--contact-text); }
+.copy-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 10px; cursor: pointer;
+  background: transparent; color: var(--contact-link); border: 1px solid rgba(255,255,255,0.18);
+}
+.copy-btn:hover { color: var(--contact-text); border-color: var(--contact-link); }
+.copy-btn .i-check { display: none; }
+.copy-btn.copied .i-copy { display: none; }
+.copy-btn.copied .i-check { display: block; }
+.copy-status { font-size: 14px; color: var(--contact-muted); }
 
 /* ---------- Lábléc ---------- */
 .site-footer { background: var(--contact-bg); color: var(--contact-muted); border-top: 1px solid rgba(255,255,255,0.1); font-size: 14px; }
